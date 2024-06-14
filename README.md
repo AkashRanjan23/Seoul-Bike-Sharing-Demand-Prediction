@@ -31,4 +31,27 @@ By accurately forecasting the hourly bike rental demand, this project aims to:
 - Provide a stable supply of rental bikes, minimizing waiting times for users.
 - Contribute to better urban mobility planning and management.
 
-This project not only addresses a critical operational need for bike sharing systems but also offers valuable insights into urban mobility patterns, benefiting both the service providers and the city’s residents.---
+This project not only addresses a critical operational need for bike sharing systems but also offers valuable insights into urban mobility patterns, benefiting both the service providers and the city’s residents.
+
+# **Problem Statement**
+**Currently, rental bikes are being introduced in many urban cities to enhance mobility comfort and convenience. Ensuring that rental bikes are available and accessible to the public at the right time is crucial, as it reduces waiting times and improves user satisfaction. Consequently, maintaining a stable supply of rental bikes throughout the day becomes a significant concern for city planners and bike-sharing operators. The key challenge lies in accurately predicting the number of bikes needed each hour, taking into account various factors such as historical usage patterns and weather conditions. This prediction is essential for optimizing bike distribution and ensuring a seamless and efficient bike-sharing experience for users.**
+
+The libraries used in the code are:
+
+1. pandas: For data manipulation and analysis.
+2. numpy: For numerical computing.
+3. matplotlib.pyplot: For creating plots and visualizations.
+4. seaborn: For statistical data visualization.
+5. calendar: For working with dates and calendars.
+6. LabelEncoder: From sklearn.preprocessing, for converting categorical data to numerical data.
+7. SelectKBest and f_regression: From sklearn.feature_selection, for feature selection.
+8. variance_inflation_factor: From statsmodels.stats.outliers_influence, for feature selection.
+9. StandardScaler: From sklearn.preprocessing, for feature scaling.
+10. PCA: From sklearn.decomposition, for dimensionality reduction.
+11. train_test_split: From sklearn.model_selection, for splitting the data into training and testing sets.
+12. GridSearchCV and RandomizedSearchCV: From sklearn.model_selection, for hyperparameter tuning.
+13. LinearRegression, RandomForestRegressor, and SVR: From sklearn.linear_model and sklearn.ensemble, for regression modeling.
+14. mean_absolute_error, mean_squared_error, r2_score: From sklearn.metrics, for evaluation metrics.
+15. cross_val_score: From sklearn.model_selection, for cross-validation.
+
+These libraries are commonly used in data preprocessing, feature selection, modeling, and evaluation in machine learning projects.
