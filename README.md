@@ -9,8 +9,6 @@ The project aimed to develop a predictive model for bike demand in Seoul, South 
 Key findings include:
 
 - Peak demand in the morning and evening, with lower demand in winter and highest in June.
-- Multicollinearity between temperature and dew point temperature.
-- Xtreme Gradient Boosting (XGBoost) model outperformed others with 97% accuracy on train and 92% on test data.
 
 The project's success demonstrates the potential of machine learning in optimizing bike sharing systems, leading to more efficient and sustainable urban transportation solutions.
 
